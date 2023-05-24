@@ -1,0 +1,36 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+h1{
+    font: normal 70pt Arial;
+    font-weight: 600;
+    color: rgb(32, 57, 57);
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+#counter{
+    font: normal 70pt Arial;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: "black";
+}
+input[type="button"]{
+    margin: 0px 7px 0px 7px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 1px 2px 5px 1px;
+}
+input[type="button"]:active{
+    transform: scale(0.98);
+    box-shadow: 1px 1px 3px 1px;
+}
+footer{
+    font: normal 20px Arial;
+    font-style: Italic;
+}
