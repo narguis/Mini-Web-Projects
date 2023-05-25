@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css" />
+  </head>
+  <body onload="fill()">
+    <div>
+      <h1>Tic Tac Toe</h1>
+      <h3 id="turncounter">Turn 1</h3>
+    </div>
+    <div id="board">
+      <div class="row">
+        <button class="box" id="btn1" onclick="boxclick(this.id)"></button>
+        <button class="box" id="btn2" onclick="boxclick(this.id)"></button>
+        <button class="box" id="btn3" onclick="boxclick(this.id)"></button>
+      </div>
+      <div class="row">
+        <button class="box" id="btn4" onclick="boxclick(this.id)"></button>
+        <button class="box" id="btn5" onclick="boxclick(this.id)"></button>
+        <button class="box" id="btn6" onclick="boxclick(this.id)"></button>
+      </div>
+      <div class="row">
+        <button class="box" id="btn7" onclick="boxclick(this.id)"></button>
+        <button class="box" id="btn8" onclick="boxclick(this.id)"></button>
+        <button class="box" id="btn9" onclick="boxclick(this.id)"></button>
+      </div>
+    </div>
+    <div>
+        <button id="rstbtn" onclick="restart()">Restart</button>
+    </div>
+    <footer>
+      <p>&copy; Narguis</p>
+    </footer>
+    <script src="tic-tac-toe.js"></script>
+  </body>
+</html>
